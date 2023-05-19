@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    background-color: #fff;
+    
+    
+}
+
+.container
+{
+height: 250px;
+width: 500px;
+border-radius: 8px;
+background-color: rgb(20, 20, 20);
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+margin: 0 auto;
+
+}
+
+.timer
+{
+    background-color: rgb(2, 85, 238);
+    height: 150px;
+    width: 600px;
+    margin-top: 10px;
+    position: relative;
+    left: -50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px;
+    
+}
+
+
+#btn
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;   
+ margin: 30px;
+}
+button
+{
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;
+}
